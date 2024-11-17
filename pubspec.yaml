@@ -1,0 +1,27 @@
+name: universal_file_reader
+description: "A Flutter project for reading and managing various file types."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  file_picker: ^4.6.1  # For picking files of various types
+  open_filex: ^3.4.0   # To open files
+  pdfx: ^2.3.0         # For viewing PDF files
+  flutter_widget_from_html: ^0.8.5  # To render HTML
+  excel: ^2.0.3        # For working with Excel files
+  syncfusion_flutter_pdfviewer: ^20.4.0  # Advanced PDF viewing
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
